@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  command = "node scripts/press-images.mjs"
 
 [[headers]]
   for = "/assets/*"
