@@ -61,7 +61,7 @@ for (const [, rawUrl, slug] of cards) {
       try { file = await download(src, slug); } catch (e) { console.log(`  image download failed: ${e.message}`); }
     }
   }
-  const tag = file ? `<img class="aw-press-img" src="/${DIR}/${file}" alt="" loading="lazy">` : '';
+  const tag = file ? `<img class="aw-press-img" src="/${DIR}/${file}" alt="" width="1280" height="720" loading="lazy">` : '';
   html = html.replace(`<!--press-thumb:${slug}-->`, tag);
   console.log(file ? `  photo: ${file}` : '  no photo');
 }
