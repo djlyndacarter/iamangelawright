@@ -2,7 +2,7 @@
 
 Angela Wright's personal brand site, as plain HTML/CSS/JS hosted on Netlify (no build step).
 
-- `index.html` is the home page. Sections are anchored (`#about`, `#services`, `#portfolio`, `#recognition`, `#speaking`, `#contact`).
+- `index.html` is the home page. `press.html` (served at `/press`) lists press coverage; add a card by copying one `aw-press-card` link. Sections are anchored (`#about`, `#services`, `#portfolio`, `#recognition`, `#speaking`, `#contact`).
 - `assets/css/site.css` holds the design (Tailwind output from the original Base44 build), `theme.css` the header/nav and modals, `info.css` the bio and brand pop-ups.
 - `assets/js/aw.js` runs smooth scrolling, the mobile menu and the pre-order pop-up; `aw-info.js` the bio/brand pop-ups; `forms.js` sends the forms to Netlify Forms.
 - `assets/images/` holds every photo and logo.
