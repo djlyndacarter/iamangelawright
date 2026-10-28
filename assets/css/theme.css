@@ -45,3 +45,6 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 .aw-feature-link{display:inline-block;font-size:12px;letter-spacing:.2em;color:#070707;background:#1db954;padding:12px 22px;border-radius:2px;font-weight:600}
 .aw-feature-link:hover{background:#3ae376}
 @media(max-width:800px){.aw-feature{grid-template-columns:1fr;gap:28px;padding:18px;margin-bottom:48px}.aw-feature-img{max-width:420px;margin:0 auto}.aw-feature-body{text-align:center}}
+.aw-feature-section{background:rgb(7,10,7);padding:72px 0 8px}
+.aw-feature-section .aw-feature{margin-bottom:0}
+@media(max-width:800px){.aw-feature-section{padding:48px 0 0}}
