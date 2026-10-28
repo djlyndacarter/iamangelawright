@@ -78,6 +78,6 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 .aw-talk-close{position:absolute;top:-44px;right:0;width:36px;height:36px;border-radius:50%;border:0;background:#1db954;color:#070707;font-size:24px;line-height:1;cursor:pointer}
 .aw-feature-video video{display:block;width:100%;height:auto;aspect-ratio:9/16;background:#000}
 #recognition .aw-feature + .aw-feature{margin-top:-32px}
-/* As Seen In: six tiles, 2 / 3 / 6 per row */
-@media(min-width:768px){.aw-seen-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
-@media(min-width:1100px){.aw-seen-grid{grid-template-columns:repeat(6,minmax(0,1fr))!important}}
+/* As Seen In: six tiles, always 3 on top and 3 below */
+.aw-seen-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+@media(max-width:600px){.aw-seen-grid{gap:10px!important}}
