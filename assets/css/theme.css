@@ -81,3 +81,7 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 /* As Seen In: six tiles, always 3 on top and 3 below */
 .aw-seen-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
 @media(max-width:600px){.aw-seen-grid{gap:10px!important}}
+/* Content page: video card thumbnail */
+.aw-content-video-thumb{position:relative;display:block}
+.aw-content-video-thumb .aw-press-img{object-position:center 58%}
+.aw-content-video-thumb .aw-talk-play{font-size:34px}
