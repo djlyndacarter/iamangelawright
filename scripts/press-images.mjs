@@ -67,3 +67,13 @@ for (const [, rawUrl, slug] of cards) {
 }
 
 await writeFile(PAGE, html);
+
+// Home page tiles marked data-press-thumb="<slug>" reuse that article's Press photo.
+const photos = new Set(await readdir(DIR));
+let home = await readFile('index.html', 'utf8');
+home = home.replace(/data-press-thumb="([a-z0-9-]+)" src="[^"]*"/g, (tag, slug) => {
+  const file = [...photos].find(f => f.startsWith(`${slug}.`));
+  console.log(`home tile: ${slug} ${file ? `uses ${file}` : 'keeps its fallback'}`);
+  return file ? `src="/${DIR}/${file}"` : tag;
+});
+await writeFile('index.html', home);
