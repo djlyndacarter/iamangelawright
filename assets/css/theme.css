@@ -102,3 +102,5 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 .aw-ways-grid>div{padding:40px 30px 36px!important;margin-top:0!important;margin-bottom:0!important}
 .aw-ways-grid>div>ul{flex:1 1 auto}
 .aw-ways-grid>div>a{margin-top:auto}
+.aw-feature-section .aw-feature + .aw-feature{margin-top:32px}
+@media(max-width:800px){.aw-feature-section .aw-feature + .aw-feature{margin-top:24px}}
