@@ -91,7 +91,7 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 @media(min-width:1280px){.aw-ways-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.aw-ways-grid>div{padding-left:26px!important;padding-right:26px!important}}
 .aw-ways-grid>div{position:relative}
 @media(max-width:767px){.aw-ways-grid>div{margin-top:0!important;margin-bottom:0!important}}
-.aw-bloom-thumb{object-position:center 35%!important}
+.aw-bloom-thumb{object-position:center 22%!important}
 .aw-gallery-box{position:relative;width:min(900px,100%);max-height:88vh;overflow:auto;background:#0b0b0b;border:1px solid rgba(29,185,84,.25);border-radius:6px;padding:20px}
 .aw-gallery-box .aw-talk-close{top:10px;right:10px;z-index:2}
 .aw-gallery-title{font-size:11px;letter-spacing:.2em;color:#1db954;margin:4px 48px 14px 0}
