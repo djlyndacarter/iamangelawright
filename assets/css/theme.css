@@ -104,3 +104,21 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 .aw-ways-grid>div>a{margin-top:auto}
 .aw-feature-section .aw-feature + .aw-feature{margin-top:32px}
 @media(max-width:800px){.aw-feature-section .aw-feature + .aw-feature{margin-top:24px}}
+.aw-give-section{background:rgb(7,10,7);padding:96px 0}
+.aw-give{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:48px;align-items:center;max-width:1000px;margin:0 auto;padding:28px;background:linear-gradient(160deg,#111411 0%,#0c0c0c 100%);border:1px solid rgba(29,185,84,.25);border-radius:6px}
+.aw-give-mark{aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:32px;border-radius:4px;background:radial-gradient(80% 70% at 50% 40%,rgba(29,185,84,.22) 0%,transparent 70%),#0a0f0a;border:1px solid rgba(29,185,84,.35);box-shadow:0 18px 40px #0008}
+.aw-give-mark-top{font-size:11px;letter-spacing:.3em;color:rgba(255,255,255,.6);margin-bottom:18px}
+.aw-give-mark-name{font-size:clamp(44px,5vw,64px);line-height:.92;color:#fff}
+.aw-give-mark-name span{color:#1db954}
+.aw-give-mark-tag{margin-top:22px;font-size:14px;line-height:1.6;color:rgba(255,255,255,.7);font-style:italic;max-width:260px}
+.aw-give-body h3{font-size:clamp(34px,4.4vw,56px);line-height:.95;margin-bottom:18px}
+.aw-give-list{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:10px}
+.aw-give-list li{font-size:14px;line-height:1.6;color:rgba(255,255,255,.55);padding-left:16px;position:relative}
+.aw-give-list li:before{content:"\25B8";position:absolute;left:0;color:rgba(29,185,84,.7);font-size:10px;top:3px}
+.aw-give-list strong{display:block;color:rgba(255,255,255,.85);font-weight:600}
+.aw-give-note{font-size:14px;line-height:1.7;color:rgba(255,255,255,.55);margin-bottom:24px}
+.aw-give-note strong{color:#fff}
+.aw-give-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.aw-give-link2{display:inline-block;font-size:12px;letter-spacing:.2em;color:#fff;border:1px solid rgba(255,255,255,.25);padding:11px 22px;border-radius:2px;font-weight:600}
+.aw-give-link2:hover{border-color:#1db954;color:#1db954}
+@media(max-width:800px){.aw-give-section{padding:64px 0}.aw-give{grid-template-columns:1fr;gap:28px;padding:18px}.aw-give-mark{aspect-ratio:auto;padding:40px 24px}.aw-give-body{text-align:center}.aw-give-list{text-align:left}.aw-give-ctas{justify-content:center}}
