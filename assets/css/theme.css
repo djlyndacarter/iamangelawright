@@ -122,3 +122,9 @@ html{scroll-behavior:smooth}body{margin:0;background:#070707;color:white}#aw-pag
 .aw-give-link2{display:inline-block;font-size:12px;letter-spacing:.2em;color:#fff;border:1px solid rgba(255,255,255,.25);padding:11px 22px;border-radius:2px;font-weight:600}
 .aw-give-link2:hover{border-color:#1db954;color:#1db954}
 @media(max-width:800px){.aw-give-section{padding:64px 0}.aw-give{grid-template-columns:1fr;gap:28px;padding:18px}.aw-give-mark{aspect-ratio:auto;padding:40px 24px}.aw-give-body{text-align:center}.aw-give-list{text-align:left}.aw-give-ctas{justify-content:center}}
+.aw-give-mark{background:#F6F3EC!important;border:1px solid rgba(191,149,56,.5)!important;gap:0}
+.aw-wwts-w{width:min(240px,72%);height:auto;color:#BF9538;margin-bottom:22px}
+.aw-wwts-name{font-family:"Bodoni Moda",Didot,"Bodoni 72",Georgia,serif;font-weight:500;font-size:clamp(30px,3.2vw,40px);letter-spacing:.12em;color:#0E0D0B;line-height:1}
+.aw-wwts-sub{font-family:Jost,Futura,"Century Gothic",sans-serif;font-weight:500;font-size:13px;letter-spacing:.42em;color:#8A6720;margin-top:10px;padding-left:.42em}
+.aw-give-mark .aw-give-mark-top{color:rgba(14,13,11,.5);margin:26px 0 0;font-size:10px}
+.aw-wwts-name{white-space:nowrap;font-size:clamp(26px,2.4vw,32px);letter-spacing:.1em}
