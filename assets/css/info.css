@@ -10,3 +10,4 @@
 .aw-bio-header{padding:30px 40px;background:#0b120c}.aw-bio-header>p:last-child{font-size:13px;color:#999;letter-spacing:1px}.aw-bio-modal blockquote{border-left:2px solid #1db954;margin:0 0 32px;padding:0 18px;font-size:18px;line-height:1.7;color:#eee}.aw-bio-part{border-top:1px solid #222;padding:24px 0}.aw-bio-part:first-of-type{border:0}.aw-bio-part h3{margin-bottom:12px}.aw-bio-part p{margin:0 0 15px}
 body.aw-info-open{overflow:hidden}
 @media(max-width:640px){.aw-info-overlay{padding:12px 8px}.aw-info-hero{height:260px}.aw-info-body{padding:26px 20px}.aw-info-overlay-title{left:20px}.aw-info-columns{grid-template-columns:1fr;gap:12px}.aw-info-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.aw-info-gallery img{height:125px}.aw-bio-header{padding:28px 22px}}
+.aw-bio-part a{color:#1DB954;text-decoration:underline;text-underline-offset:2px}
