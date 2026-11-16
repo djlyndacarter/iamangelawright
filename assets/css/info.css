@@ -11,3 +11,33 @@
 body.aw-info-open{overflow:hidden}
 @media(max-width:640px){.aw-info-overlay{padding:12px 8px}.aw-info-hero{height:260px}.aw-info-body{padding:26px 20px}.aw-info-overlay-title{left:20px}.aw-info-columns{grid-template-columns:1fr;gap:12px}.aw-info-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.aw-info-gallery img{height:125px}.aw-bio-header{padding:28px 22px}}
 .aw-bio-part a{color:#1DB954;text-decoration:underline;text-underline-offset:2px}
+
+/* 2026 bio */
+.aw-bio-kicker{color:#1db954;text-transform:uppercase;letter-spacing:2px;font-size:10px!important;margin:0 0 6px!important}
+.aw-bio-part h3{color:#fff!important;font-size:24px!important;letter-spacing:.5px!important;text-transform:none!important;font-weight:800;margin:0 0 16px}
+.aw-bio-part h4{color:#fff;font-size:16px;font-weight:800;margin:0 0 8px}
+.aw-bio-part li{color:#bbb;font-size:14px;line-height:1.7}
+.aw-bio-part strong{color:#eee}
+.aw-bio-glance{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:0 0 10px}
+.aw-bio-glance>div{background:#0b120c;border:1px solid #1f3324;border-radius:4px;padding:16px 12px}
+.aw-bio-glance strong{display:block;color:#1db954;font-size:28px;font-weight:900;line-height:1;margin-bottom:8px}
+.aw-bio-glance span{display:block;color:#aaa;font-size:12px;line-height:1.45}
+.aw-bio-cards,.aw-bio-brands{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.aw-bio-card,.aw-bio-brand{background:#0b120c;border:1px solid #1f3324;border-radius:4px;padding:20px}
+.aw-bio-card p,.aw-bio-brand p{margin:0 0 10px}
+.aw-bio-brand h4{font-size:22px;letter-spacing:1px}
+.aw-bio-impact{border-top:1px solid #1f3324;padding-top:10px;margin-top:4px!important}
+.aw-bio-impact span,.aw-bio-seen span,.aw-bio-faves span,.aw-bio-contact span{color:#1db954;text-transform:uppercase;letter-spacing:2px;font-size:10px;margin-right:6px}
+.aw-bio-two{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.aw-bio-list{margin:0;padding-left:18px}.aw-bio-list li{margin-bottom:6px}
+.aw-bio-seen{margin-top:18px!important;color:#ddd!important}
+.aw-bio-wwts{display:grid;grid-template-columns:200px 1fr;gap:22px;align-items:center;margin:4px 0 16px;padding:18px;background:#F6F3EC;border-radius:4px}
+.aw-bio-wwts p{color:#2a2a2a!important;margin:0!important}.aw-bio-wwts p a{color:#8a6a1f!important}
+.aw-bio-wwts-mark{display:flex;flex-direction:column;align-items:center;text-decoration:none!important;color:#0e0d0b}
+.aw-bio-wwts-logo{width:150px;height:auto;color:#BF9538}
+.aw-bio-wwts-mark span{margin-top:8px;font-weight:900;font-size:16px;letter-spacing:1px;color:#0e0d0b}.aw-bio-wwts-mark b{color:#BF9538}
+.aw-bio-faves{display:grid;grid-template-columns:1fr 1fr;gap:14px;color:#ddd;font-size:14px}
+.aw-bio-faves span,.aw-bio-contact span{display:block;margin-bottom:4px}
+.aw-bio-contact{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;color:#ddd;font-size:14px}
+@media(max-width:760px){.aw-bio-glance{grid-template-columns:repeat(2,minmax(0,1fr))}.aw-bio-cards,.aw-bio-brands,.aw-bio-two,.aw-bio-faves,.aw-bio-contact{grid-template-columns:1fr}.aw-bio-wwts{grid-template-columns:1fr;text-align:center}}
+@media(max-width:640px){.aw-bio-header{padding-right:70px}}
