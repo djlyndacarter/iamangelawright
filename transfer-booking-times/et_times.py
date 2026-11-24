@@ -24,7 +24,7 @@ def select(name, opts, required, cls):
     o = ''.join(f'<option>{t}</option>' for t in opts)
     req = ' required' if required else ''
     c = f' class="{cls}"' if cls else ''
-    return f'<select name="{name}"{req}{c}><option value="">Choose a time (ET)</option>{o}</select>'
+    return f'<select name="{name}"{req}{c}><option value="">Pick a time (ET)</option>{o}</select>'
 
 INPUT = re.compile(r'<input\b(?=[^>]*\btype="time")[^>]*>')
 
